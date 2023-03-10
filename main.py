@@ -67,49 +67,49 @@ btns_frame.pack()
  
 # baris pertama
  
-aclear = Button(btns_frame, text = "AC", fg = "black", width = 21, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_clear())
+aclear = Button(btns_frame, text = "AC", fg = "#262626", width = 21, height = 3, bd = 0, bg = "#A6A6A6", cursor = "hand2", command = lambda: btn_clear())
  
-divide = Button(btns_frame, text = "/", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_click("/"))
+divide = Button(btns_frame, text = "/", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_click("/"))
 
-clear = Button(btns_frame, text = "C", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_delete())
+clear = Button(btns_frame, text = "C", fg = "#262626", width = 10, height = 3, bd = 0, bg = "#A6A6A6", cursor = "hand2", command = lambda: btn_delete())
  
 # baris kedua
  
-seven = Button(btns_frame, text = "7", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(7))
+seven = Button(btns_frame, text = "7", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(7))
  
-eight = Button(btns_frame, text = "8", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(8))
+eight = Button(btns_frame, text = "8", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(8))
  
-nine = Button(btns_frame, text = "9", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(9))
+nine = Button(btns_frame, text = "9", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(9))
  
-multiply = Button(btns_frame, text = "*", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_click("*"))
+multiply = Button(btns_frame, text = "*", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_click("*"))
  
 # baris ketiga
  
-four = Button(btns_frame, text = "4", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(4))
+four = Button(btns_frame, text = "4", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(4))
  
-five = Button(btns_frame, text = "5", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(5))
+five = Button(btns_frame, text = "5", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(5))
  
-six = Button(btns_frame, text = "6", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(6))
+six = Button(btns_frame, text = "6", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(6))
  
-minus = Button(btns_frame, text = "-", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_click("-"))
+minus = Button(btns_frame, text = "-", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_click("-"))
  
 # baris keempat
  
-one = Button(btns_frame, text = "1", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(1))
+one = Button(btns_frame, text = "1", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(1))
  
-two = Button(btns_frame, text = "2", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(2))
+two = Button(btns_frame, text = "2", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(2))
  
-three = Button(btns_frame, text = "3", fg = "black", width = 10, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(3))
+three = Button(btns_frame, text = "3", fg = "white", width = 10, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(3))
  
-plus = Button(btns_frame, text = "+", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_click("+"))
+plus = Button(btns_frame, text = "+", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_click("+"))
  
 # baris kelima
  
-zero = Button(btns_frame, text = "0", fg = "black", width = 21, height = 3, bd = 0, bg = "#fff", cursor = "hand2", command = lambda: btn_click(0))
+zero = Button(btns_frame, text = "0", fg = "white", width = 21, height = 3, bd = 0, bg = "#262626", cursor = "hand2", command = lambda: btn_click(0))
  
-point = Button(btns_frame, text = ".", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_click("."))
+point = Button(btns_frame, text = ".", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_click("."))
  
-equals = Button(btns_frame, text = "=", fg = "black", width = 10, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: btn_equal())
+equals = Button(btns_frame, text = "=", fg = "white", width = 10, height = 3, bd = 0, bg = "#FFB137", cursor = "hand2", command = lambda: btn_equal())
 
 # baris pertama 
 aclear.grid(row = 0, column = 0, columnspan = 2, padx = 1, pady = 1)
