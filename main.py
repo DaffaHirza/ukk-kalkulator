@@ -31,15 +31,14 @@ def btn_delete():
 # 'btn_equal' menghitung ekspresi yang ada di bidang input
  
 def btn_equal():
- 
-    global expression
- 
-    result = str(eval(expression)) # Fungsi 'eval' mengevaluasi ekspresi string secara langsung
- 
-    # anda juga dapat mengimplementasikan fungsi Anda sendiri untuk mengevaluasi ekspresi alih-alih fungsi 'eval'
- 
-    input_text.set(result)
- 
+    result = ""
+    try:
+        result = eval(input_text.get())
+        input_text.set(result)
+    except:
+        result = "error"
+        input_text.set(result)
+
     expression = ""
  
 expression = ""
